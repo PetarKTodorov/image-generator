@@ -1,12 +1,15 @@
 import fs from 'fs';
 import path from 'path';
 import resizer from 'node-image-resizer';
+import isImage from 'is-image';
 
 import { constants } from '../infrastructures/constants.js';
 import { getImageWidth } from '../infrastructures/functions.js';
 
 async function resizeImages() {
-    const files = await fs.promises.readdir(constants.baseImagesToResizeFolder);
+    let files = await fs.promises.readdir(constants.baseImagesToResizeFolder);
+
+    files = files.filter((file) => isImage(file));
 
     if (fs.existsSync(constants.baseExportFolder)) {
         fs.rmdirSync(constants.baseExportFolder, { recursive: true });

@@ -37,7 +37,7 @@ npm install
 
 
 ## How to use
-1. Navigate to "images-to-resize" derictory and paste yours images there.
+1. Navigate to "images-to-resize" directory and paste your images there non image types files will be skipped.
 2. Run in terminal:  ``` npm run start ```
 3. Generated images will be in ``` "_resized-images/[imageName]/" ```
 4. Optional: in a root directory in the project you will find 'settings.json' file. This file contains default settings you can modify.
