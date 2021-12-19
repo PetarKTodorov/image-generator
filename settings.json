@@ -1,0 +1,35 @@
+{
+    "resolutionWidths": [
+        {
+            "width": 1920
+        },
+        {
+            "width": 1600
+        },
+        {
+            "width": 1360
+        },
+        {
+            "width": 1280
+        },
+        {
+            "width": 1024
+        },
+        {
+            "width": 800
+        },
+        {
+            "width": 600
+        },
+        {
+            "width": 400
+        }
+    ],
+    "imageSuffix": "_width_{0}",
+    "cssSelector": ".demo-image",
+    "cssBaseFolder": "",
+    "isCssBasePathStartsWithLeadingDotAndDash": true,
+    "htmlSelector": ".demo-image",
+    "htmlBaseFolder": "",
+    "isHtmlBasePathStartsWithLeadingDotAndDash": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "image-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "image-size": "^1.0.0",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^6.0.0",
+    "node-image-resizer": "^1.0.0"
+  },
+  "dependencies": {}
+}
